@@ -1,5 +1,7 @@
 # gBigRocks
 
-Plan the big rocks of developers. 
+Planung von "big rocks" für Entwickler. 
 
-A DDD (Domain Driven Design) and Clean Architecture sample application.
+Eine DDD (Domain Driven Design) und Clean Architecture Beispiel Applikation.
+
+Aus rein technischem Interesse werde ich als GUI GTK Sharp und als Speicher LiteDB benutzen.
