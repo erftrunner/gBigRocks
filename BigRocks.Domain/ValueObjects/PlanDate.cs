@@ -4,6 +4,9 @@ using BigRocks.Domain.SharedKernel;
 
 namespace BigRocks.Domain.ValueObjects
 {
+    /// <summary>
+    /// Planungsdatum für eine BigRock
+    /// </summary>
     public class PlanDate : ValueObject
     {
         public int Day { get; private set; }

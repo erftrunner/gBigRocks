@@ -4,6 +4,10 @@ using BigRocks.Domain.SharedKernel;
 
 namespace BigRocks.Domain.ValueObjects
 {
+    
+    /// <summary>
+    /// Duration/Dauer für einen BigRock
+    /// </summary>
     public class PlanDuration : ValueObject
     {
         public int LengthInDays { get; private set; }
