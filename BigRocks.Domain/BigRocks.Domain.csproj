@@ -38,6 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\BigRock.cs" />
+    <Compile Include="Entities\Developer.cs" />
     <Compile Include="Interfaces\IHandleDomainEvent.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -45,6 +47,8 @@
     <Compile Include="SharedKernel\BaseEntitiy.cs" />
     <Compile Include="SharedKernel\DomainEventService.cs" />
     <Compile Include="SharedKernel\ValueObject.cs" />
+    <Compile Include="ValueObjects\PlanDate.cs" />
+    <Compile Include="ValueObjects\PlanDuration.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
