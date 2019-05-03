@@ -3,6 +3,9 @@ using System.Linq;
 
 namespace BigRocks.Domain.SharedKernel
 {
+    /// <summary>
+    /// Mutter aller Wertobjekte
+    /// </summary>
     public abstract class ValueObject
     {
         protected abstract IEnumerable<object> GetEqualityComponents();
