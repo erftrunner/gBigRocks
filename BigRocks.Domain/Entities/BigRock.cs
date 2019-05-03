@@ -1,3 +1,4 @@
+using System;
 using BigRocks.Domain.SharedKernel;
 using BigRocks.Domain.ValueObjects;
 
@@ -13,5 +14,7 @@ namespace BigRocks.Domain.Entities
         public PlanDate StartDate { get; private set; }
 
         public PlanDuration Duration { get; private set; }
+
+        public Guid DeveloperId { get; private set; }
     }
 }
