@@ -7,7 +7,7 @@ namespace BigRocks.Domain.Interfaces
     public interface IRepository<T> where T : BaseEntity
     {
         T GetById(Guid id);
-        IEnumerable<T> GetAll(Predicate<BaseEntity> predicate);
+        IEnumerable<T> GetAll(Predicate<T> predicate);
         void Add(T entity);
         void Update(T entity);
         void Delete(T entity);

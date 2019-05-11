@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRocks.Domain", "BigRocks
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRocks.Persistence", "BigRocks.Persistence\BigRocks.Persistence.csproj", "{9B95249F-8966-4C78-AFE8-9BBCB77474C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigRocks.Application", "BigRocks.Application\BigRocks.Application.csproj", "{D5880327-F96A-48C2-8F0B-FBF71ECDBD18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x86 = Release|x86
@@ -24,5 +26,9 @@ Global
 		{99728424-3EAF-44BD-A73D-E4EC4815E7BF}.Release|x86.Build.0 = Release|x86
 		{99728424-3EAF-44BD-A73D-E4EC4815E7BF}.Debug|x86.ActiveCfg = Debug|x86
 		{99728424-3EAF-44BD-A73D-E4EC4815E7BF}.Debug|x86.Build.0 = Debug|x86
+		{D5880327-F96A-48C2-8F0B-FBF71ECDBD18}.Release|x86.ActiveCfg = Release|Any CPU
+		{D5880327-F96A-48C2-8F0B-FBF71ECDBD18}.Release|x86.Build.0 = Release|Any CPU
+		{D5880327-F96A-48C2-8F0B-FBF71ECDBD18}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D5880327-F96A-48C2-8F0B-FBF71ECDBD18}.Debug|x86.Build.0 = Debug|Any CPU
 	EndGlobalSection
 EndGlobal
