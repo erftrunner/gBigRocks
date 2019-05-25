@@ -6,7 +6,8 @@
     <property name="can_focus">False</property>
     <property name="default_width">800</property>
     <property name="default_height">600</property>
-    <child>
+    <property name="icon">../icons/main.ico</property>
+    <child type="titlebar">
       <placeholder/>
     </child>
     <child>
@@ -39,12 +40,13 @@
                       </object>
                     </child>
                     <child>
-                      <object class="GtkImageMenuItem">
+                      <object class="GtkImageMenuItem" id="menuOpen">
                         <property name="label">gtk-open</property>
                         <property name="visible">True</property>
                         <property name="can_focus">False</property>
                         <property name="use_underline">True</property>
                         <property name="use_stock">True</property>
+                        <signal name="activate" handler="on_menuOpen_activate" swapped="no"/>
                       </object>
                     </child>
                     <child>

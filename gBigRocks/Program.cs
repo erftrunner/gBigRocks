@@ -15,7 +15,7 @@ namespace gBigRocks
             ProjectFactory projectFactory = new ProjectFactory(projectRepository);
             Application.Init();
 
-            MainWindow win = MainWindow.Create(projectFactory);
+            MainWindow win = MainWindow.Create(projectFactory, projectRepository);
             win.Show();
             Application.Run();
         }

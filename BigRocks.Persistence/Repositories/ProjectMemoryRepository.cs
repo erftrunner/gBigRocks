@@ -21,9 +21,9 @@ namespace BigRocks.Persistence.Repositories
             return null;
         }
 
-        public IEnumerable<Project> GetAll(Predicate<Project> predicate)
+        public IEnumerable<Project> GetAll()
         {
-            return new List<Project>();
+            return _projects.Values;
         }
 
         public void Add(Project entity)
